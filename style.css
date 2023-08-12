@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}    
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+ }
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+
+nav{
+    background-color: #b3ffe6;
+    padding: 4px;
+    margin-top: 7px;
+    box-shadow: 0 2px 4px 0 black;
+    
+    
+}
+
+h1,ul,li{
+    display: inline;
+    text-align: center;
+}
+h1{
+    position: relative;
+    left: 30px;
+}
+
+ul{
+    margin-left: 800px;
+    font-weight: bold;
+}
+li:hover{
+    color: black;
+}
+li:visited{
+    color:black;
+}
+li:active{
+    color:black;
+}
+
+li{
+    margin-right: 70px;
+}
+
+.part1{
+    position: relative;
+    top: 10px;
+    background-color: #b3ffe6;
+}
+
+.para{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-weight: bold;
+}
+
+.heading{
+    position: relative;
+    top: 70px;
+    left: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p1{
+    display: inline-flex;
+    background-color:black ;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    
+}
+
+.p2{
+    padding: 90px 90px 90px 0 ;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+
+
+.img1{
+    float: right;
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+    
+    border-radius: 10px;
+}
+img{
+    transition-duration: 0.4s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.about{
+    position: relative;
+    left: 100px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.aboutline{
+    position: relative;
+    left: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 20px;
+    position: relative;
+    left: 100px;
+}
+.box{
+    border: 2px solid black;
+    text-align: center;
+    width: 220px;
+    padding: 20px;
+    transition-duration: 0.4s;
+}
+
+.box:hover{
+    background-color: antiquewhite;
+    transform: scale(1.1);
+    border-radius: 35px;
+}    
+
+.Product{
+    text-align: center;
+    position: relative;
+    right: 20px;
+    padding-bottom: 40px;
+}
+
+i{
+    font-size: 35px;
+}
+
+.part3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #b3ffe6;
+    position: relative;
+    right: 10px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.box2{
+    position: relative;
+    bottom: 50px;
+}
+.box4{
+    position: relative;
+    bottom: 50px;
+}
+
+.part3para{
+    position: relative;
+    top: 100px;
+
+}
+
+.hey{
+    background-color: #b3ffe6;
+    padding:20px;
+    position: relative;
+    text-align: center;
+}
+.under{
+    padding: 40px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+
+.part4{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.part5{
+    background-color: #b3ffe6;
+    position: relative;
+    top: 60px;
+}
+
+.p22{
+    position: relative;
+    top: 20px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+.p22:hover{
+    background-color:coral;
+    color: black;
+    font-weight: bold;
+}
+
+.group{
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+.img12{
+    position: relative;
+    left: 150px;
+    bottom: 120px;
+}
+.img13{
+    position: relative;
+    left: 950px;
+    bottom: 40px;
+}
+.heading1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.part6{
+    position: relative;
+    top: 120px;
+    right: 30px;
+    text-align: center;
+}
+
+.head{
+    font-size: 20px;
+}
+.email{
+    margin-top: 10px;
+    padding: 10px;
+}
+.sub{
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    position: relative;
+    left: 680px;
+    top:20px;
+}
+
+.sub:hover{
+    background-color: coral;
+    color: black;
+    font-weight: bold;
+}
+.part7{
+    position: relative;
+    top: 200px;
+    background-color: #b3ffe6;
+    padding: 20px;
+}
+
+.sign{
+    position: relative;
+    left: 25px;
+    padding: 10px;
+}
+
+.logos{
+    position: relative;
+    left:25px;
+    padding: 10px;
+}
+.follow{
+    padding-top: 15px;
+}
+.copyright{
+    position: relative;
+    top: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.right{
+    position: sticky;
+    bottom: 0;
+}
